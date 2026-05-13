@@ -5,7 +5,9 @@
     font-family: 'Poppins', sans-serif;
     
 }
-
+html{
+    scroll-behavior:smooth;
+}
 body {
     background-color: #f4f7f6;
     color: #333;
