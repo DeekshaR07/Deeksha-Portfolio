@@ -23,7 +23,10 @@ body {
     border-radius: 0 0 20px 20px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
-
+.nav-links a:hover{
+    color:#2196f3;
+    transition:0.3s;
+}
 .logo {
     font-size: 24px;
     font-weight: 700;
@@ -51,10 +54,14 @@ body {
 
 /* Hero Section */
 .hero {
-    background-color: #333; /* Light blue from your image */
-    text-align: center;
-    padding: 100px 20px;
-    color: #ffffff;
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(to right,#0f172a,#1e293b);
+    color:white;
+    text-align:center;
 }
 
 .hero h1 {
@@ -71,9 +78,9 @@ body {
 .section {
     background: white;
     margin-bottom: 20px;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
 }
 
 .section h2 {
