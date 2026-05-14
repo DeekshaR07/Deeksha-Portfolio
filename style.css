@@ -12,7 +12,14 @@ body {
     background-color: #f4f7f6;
     color: #333;
 }
-
+.profile-pic{
+width:150px;
+height:150px;
+border-radius:50%;
+object-fit:cover;
+display:block;
+margin:auto;
+}
 /* Navbar Styling */
 .navbar {
     display: flex;
